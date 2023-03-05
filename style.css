@@ -136,3 +136,13 @@ header {
     font-weight: 400;
 }
 
+/* nav-filter */
+
+.nav-filter {
+    margin-bottom: 42px;
+}
+
+.nav-filter button {
+    margin: 0 5px;
+    text-transform: none;
+}
