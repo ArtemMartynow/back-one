@@ -4,6 +4,11 @@ body {
     font-weight: 400;
 }
 
+button {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
 h1, h2, h3, h4, h5, p {
     margin: 0;
 }
@@ -36,4 +41,27 @@ header {
 
 .logo-title p {
     font-size: 14px;
+}
+
+/* nav */
+
+.nav {
+    width: 317px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link {
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 10px;
+    border: none;
+    background: #fff;
+    cursor: pointer;
+    transition: all ease 0.2s;
+}
+
+.nav-link:hover {
+    background: #1bbc9b;
+    color: #fff;
 }
