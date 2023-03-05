@@ -50,6 +50,7 @@ header {
 
 .logo-title {
     margin-left: 14px;
+    color: #444444;
 }
 
 .logo-title h3 {
@@ -115,3 +116,23 @@ header {
     color: #fff;
     font-weight: 300;
 }
+
+/* portfolio */
+
+.portfolio {
+    text-align: center;
+    color: #444444;
+}
+
+.portfolio h2 {
+    font-size: 28px;
+    margin-top: 54px;
+    font-weight: 400;
+}
+
+.portfolio p {
+    margin-top: 17px;
+    margin-bottom: 34px;
+    font-weight: 400;
+}
+
