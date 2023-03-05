@@ -3,3 +3,12 @@ body {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
 }
+
+/* header */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 22px 40px;
+}
+
