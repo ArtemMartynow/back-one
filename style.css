@@ -4,6 +4,10 @@ body {
     font-weight: 400;
 }
 
+h1, h2, h3, h4, h5, p {
+    margin: 0;
+}
+
 /* header */
 
 header {
@@ -12,3 +16,24 @@ header {
     padding: 22px 40px;
 }
 
+/* logo */
+
+.logo {
+    display: flex;
+    width: 208px;
+    height: 47px;
+}
+
+.logo-title {
+    margin-left: 14px;
+}
+
+.logo-title h3 {
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.logo-title p {
+    font-size: 14px;
+}
