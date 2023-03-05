@@ -2,11 +2,30 @@ body {
     margin: 0;
     font-family: 'Lato', sans-serif;
     font-weight: 400;
+    -moz-user-select: -moz-none;
+    -o-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
 }
 
 button {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
+    padding: 12px;
+    border: none;
+    color: #fff;
+    background: #1bbc9b;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all ease 0.3s;
+}
+
+button:hover {
+    background-color: #16a086;
 }
 
 h1, h2, h3, h4, h5, p {
@@ -57,11 +76,42 @@ header {
     padding: 10px;
     border: none;
     background: #fff;
-    cursor: pointer;
     transition: all ease 0.2s;
+    color: #000;
+    font-weight: 400;
+    letter-spacing: 0;
 }
 
 .nav-link:hover {
     background: #1bbc9b;
     color: #fff;
+}
+
+/* home-page */
+
+.home-page {
+    background: url(./images/jumbotron.png), no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 453px;
+    text-align: center;
+    padding-top: 78px;
+}
+
+.home-page h1 {
+    font-size: 55px;
+    color: #fff;
+    font-weight: 300;
+}
+
+.home-page span {
+    font-weight: 400;
+}
+
+.home-page p {
+    width: 574px;
+    font-size: 17px;
+    margin: 44px auto;
+    color: #fff;
+    font-weight: 300;
 }
