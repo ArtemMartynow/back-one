@@ -146,3 +146,18 @@ header {
     margin: 0 5px;
     text-transform: none;
 }
+
+/* examples */
+
+.examples {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 34px 66px;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.example img {
+    width: 170px;
+    height: 180px;
+}
