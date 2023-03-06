@@ -171,6 +171,7 @@ header {
     text-align: center;
     margin-top: 60px;
     padding-top: 60px;
+    padding-bottom: 74px;
 }
 
 .about-as h2 {
@@ -183,3 +184,69 @@ header {
     margin-bottom: 43px;
 }
 
+/* workers */
+
+.workers {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 11%;
+}
+
+.worker {
+    width: 220px;
+    background: #fff;
+    color: #000;
+}
+
+.worker-img {
+    position: relative;
+}
+
+.worker-img:hover .social-media {
+    display: flex;
+}
+
+.social-media {
+    position: absolute;
+    background: #16A086;
+    opacity: 0.8;
+    width: 183px;
+    display: flex;
+    justify-content: space-around;
+    padding: 12px 0;
+    top: calc(50% - 26px);
+    left: calc(50% - 91px);
+    display: none;
+}
+
+.social-media img {
+    cursor: pointer;
+    opacity: 1;
+}
+
+.worker-name {
+    margin-top: 20px;
+}
+
+.worker-name h4 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.worker-name p {
+    font-style: italic;
+    margin-top: 7px;
+    margin-bottom: 20px;
+}
+
+.worker-description {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.worker-description p {
+    font-size: 14px;
+    margin: 0 auto;
+    width: 198px;
+}
