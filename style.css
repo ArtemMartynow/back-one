@@ -154,7 +154,6 @@ header {
     flex-wrap: wrap;
     gap: 34px 66px;
     width: 85%;
-    justify-content: center;
     margin: 0 auto;
 }
 
