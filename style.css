@@ -276,10 +276,11 @@ header {
 
 .message {
     display: grid;
-    width: 460px;
+    width: 476px;
     grid-template-columns: 114px 114px 20px 114px 114px;
     grid-template-rows: 47px 153px 37px;
     row-gap: 22px;
+    margin-right: 20px;
 }
 
 .message input {
@@ -337,4 +338,10 @@ header {
 .info {
     display: flex;
     align-items: baseline;
+}
+
+/* contact-content */
+
+.contact-content {
+    display: flex;
 }
