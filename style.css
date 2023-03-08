@@ -257,6 +257,7 @@ header {
 .contact-us {
     text-align: center;
     background: #ecf0f1;
+    padding-bottom: 60px;
 }
 
 .contact-us h2 {
@@ -344,4 +345,15 @@ header {
 
 .contact-content {
     display: flex;
+    margin-left: 5%;
+}
+
+/* footer */
+
+footer {
+    padding: 38px 50px;
+    background: #2D3E50;
+    text-align: left;
+    color: #fff;
+    font-size: 14px;
 }
